@@ -40,6 +40,11 @@ public class Recorder : MonoBehaviour{
             recData[idx++] = posObjs[i].transform.position.y;
             recData[idx++] = posObjs[i].transform.position.z;
         }
+        for(int i = 0; i < rotObjs.Count; i++){
+            recData[idx++] = rotObjs[i].transform.rotation.x;
+            recData[idx++] = rotObjs[i].transform.rotation.y;
+            recData[idx++] = rotObjs[i].transform.rotation.z;
+        }
         data.Add(recData);
     }
 
