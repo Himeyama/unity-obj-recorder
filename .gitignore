@@ -73,7 +73,6 @@ crashlytics-build.properties
 /[Aa]ssets/MMD*
 /[Aa]ssets/*mmd*
 
-New\ Scene.unity*
-New\ Scene.unity*
+SampleScene.unity*
 *.csv
 *.csv.meta
